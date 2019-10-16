@@ -4,8 +4,11 @@
   "description": "A publishable typescript npm module template",
   "main": "index.js",
   "types": "libs",
+  "files": ["lib/**/*"],
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,9 @@
   },
   "homepage": "https://github.com/leonlafa/npm-typescript-module-templatae#readme",
   "devDependencies": {
+    "prettier": "^1.18.2",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.4"
   }
 }
