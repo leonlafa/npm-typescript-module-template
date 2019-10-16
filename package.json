@@ -4,11 +4,14 @@
   "description": "A publishable typescript npm module template",
   "main": "index.js",
   "types": "libs",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc -p .",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
   },
   "repository": {
     "type": "git",
@@ -27,7 +30,10 @@
   },
   "homepage": "https://github.com/leonlafa/npm-typescript-module-templatae#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.4"
