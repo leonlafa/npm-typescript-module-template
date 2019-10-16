@@ -2,8 +2,8 @@
   "name": "npm-typescript-module-template",
   "version": "1.0.0",
   "description": "A publishable typescript npm module template",
-  "main": "index.js",
-  "types": "libs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
