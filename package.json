@@ -1,0 +1,29 @@
+{
+  "name": "npm-typescript-module-template",
+  "version": "1.0.0",
+  "description": "A publishable typescript npm module template",
+  "main": "index.js",
+  "types": "libs",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonlafa/npm-typescript-module-template.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "publishable",
+    "leonlafa"
+  ],
+  "author": "Leon Lafayette (leonlafa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonlafa/npm-typescript-module-template/issues"
+  },
+  "homepage": "https://github.com/leonlafa/npm-typescript-module-templatae#readme",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  }
+}
