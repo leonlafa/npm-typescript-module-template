@@ -5,7 +5,7 @@
 
 ## THIS PROJECT IS WIP!
 
-A template for publishing your TyeScript projects to NPM.
+A template for publishing your TypeScript projects to NPM.
 
 ## Was this template useful?
 
