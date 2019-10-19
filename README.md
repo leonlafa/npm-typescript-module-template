@@ -2,8 +2,8 @@
  [![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square&color=lightgrey)]()
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
-![views 95](https://img.shields.io/badge/views-95-brightgreen.svg)
-![clones 33](https://img.shields.io/badge/clones-33-brightgreen.svg)
+![views 113](https://img.shields.io/badge/views-113-brightgreen.svg)
+![clones 37](https://img.shields.io/badge/clones-37-brightgreen.svg)
 <div align="center">
  
 # npm-typescript-module-template
